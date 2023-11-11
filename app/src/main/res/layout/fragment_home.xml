@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/container"
+            android:layout_marginBottom="350dp"/>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="85dp"
+            android:src="@drawable/user"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/user"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kevin Faza Rivano"
+            android:textSize="20dp"
+            android:textColor="@color/secondaryColor"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_toRightOf="@id/user"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/full_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vinnn"
+            android:textSize="15sp"
+            android:textColor="@color/secondaryColor"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/username"
+            android:layout_below="@id/full_name"
+            android:layout_toRightOf="@id/user"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="152021107"
+            android:textSize="15sp"
+            android:textColor="@color/secondaryColor"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/nim"
+            android:layout_below="@id/username"
+            android:layout_toRightOf="@id/user"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/todo_list"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tdl_1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/todo_list"
+            android:padding="10dp"
+            android:layout_marginTop="270dp"
+            android:id="@+id/tdl_2"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

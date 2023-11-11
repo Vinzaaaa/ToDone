@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".SignActivity">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:src="@drawable/baseline_keyboard_backspace_25"
+        android:id="@+id/back_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_1"
+        android:text="Sign In"
+        android:textColor="@color/secondaryColor"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_3"
+        android:text="Welcome On ToDone!  Make a to-do list for the day"
+        android:textSize="13sp"
+        android:textColor="@color/secondaryColor"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_4"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/txt_4"
+        android:padding="30dp"
+        android:id="@+id/lin_1">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Username"
+            android:fontFamily="@font/poppinsregular"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/grey"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Password"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/grey"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_2"/>
+
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_1"
+        android:layout_centerHorizontal="true"
+        android:width="170dp"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/secondaryColor"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btn_1"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btn_1"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Have An Account?"
+            android:textColor="@color/secondaryColor"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginLeft="5sp"
+            android:textSize="14sp"
+            android:id="@+id/txt_signup"/>
+
+    </LinearLayout>
+    
+
+
+</RelativeLayout>

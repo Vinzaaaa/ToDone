@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryColor"
+    tools:context=".RegistActivity">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        android:id="@+id/back_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_2"
+        android:text="Sign Up"
+        android:textColor="@color/primaryColor"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_5"
+        android:text="Welcome On ToDone!  Make a to-do list for the day"
+        android:textSize="13sp"
+        android:textColor="@color/primaryColor"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/txt_6"
+        android:padding="30dp"
+        android:id="@+id/lin_2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Email"
+            android:fontFamily="@font/poppinsregular"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_3"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Username"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_4"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppinsregular"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_5"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Confirm"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="20dp"
+            android:id="@+id/edt_6"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_2"
+        android:layout_centerHorizontal="true"
+        android:width="170dp"
+        android:text="Create Account"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btn_2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btn_2"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have An Account?"
+            android:textColor="@color/primaryColor"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/poppinssemibold"
+            android:layout_marginLeft="5sp"
+            android:textSize="13sp"
+            android:id="@+id/txt_signin"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
